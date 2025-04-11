@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="">
+      <a href="/index.html">Home</a>
+      <a href="/contact.html">Contact us</a>
+      <a href="/about.html">About us</a>
+    </div>
+
+    <h1>Home</h1>
+    <!--Adding image -->
+    <img src="./assets/images/olivfruity logo.png" alt="fruits" style="width: 3%" />
+    <h2>Welcome to Olivfruity Stores</h2>
+    <section>
+      <p>We have a wide range of products to choose from.</p>
+      <!--Uisng ordered list -->
+      <ol>
+        <li>Detox</li>
+        <li>Pinezest</li>
+        <li>Fruit Salads</li>
+        <li>Smoothies</li>
+        <li>Fruit basket</li>
+      </ol>
+      <h4>Fruit basket</h4>
+      <img src="./assets/images/olivfruity fruit presence.png" alt="fruits" style="width: 23.5%" />
+      <h4>Detox</h4>
+      <img src="./assets/images/olivfruity detox.png" alt="fruits" style="width: 22%" />
+      <!--Add a download option-->
+      <section>
+        <br />
+      <a href="./assets/images/olivfruity fruit presence.png" download >Download Image</a>
+      </section>
+    </section>
+
+    <section>
+<!--Embedding audios and videos in html-->
+      <p>Your browser does not support the audio element.</p>
+      <!-- <audio scr="assets/audio/videoplayback.mp4" controls></audio><br />
+      <video src="assets/video/videoplayback.mp4" controls></video> -->
+    </section>
+
+    <section>
+<!-- Creating forms in html => collection-->
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" placeholder="Enter your name" id="name" name="name" /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" placeholder="Enter your email address" id="email" name="email" /><br />
+
+        <label>Password:</label><br />
+        <input type="password" placeholder="Enter your password" /><br />
+
+        <!-- Adding select options-->
+        <label for="select-product">Select a product:</label>
+        <select id="select-product" name="product">
+          <option value="detox">Detox</option>
+          <option value="pinezest">Pinezest</option>
+          <option value="fruit-salad">Fruit Salad</option>
+          <option value="smoothies">Smoothies</option>
+          <option value="fruit-basket">Fruit Basket</option>
+        </select><br />
+
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+
+  </body>
+</html>
